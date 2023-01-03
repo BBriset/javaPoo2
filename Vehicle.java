@@ -3,7 +3,7 @@ public abstract class Vehicle {
   String brand;
   int kilometers;
 
- protected Vehicle(String brand, int kilometers){
+ public Vehicle(String brand, int kilometers){
   this.brand=brand;
   this.kilometers=kilometers;
  } 
